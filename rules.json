@@ -1,0 +1,124 @@
+{
+	"methods":{
+		"GET":[
+			{
+				"path":"404/.*",
+				"query":".*",
+				"response_code":404,
+				"response_headers":null,
+				"response_body":"Sim Not found"
+			},
+			{
+				"path":"418/.*",
+				"query":".*",
+				"response_code":418,
+				"response_headers":null,
+				"response_body":"I am a teapot"
+			},
+			{
+				"path":"500/.*",
+				"query":".*",
+				"response_code":500,
+				"response_headers":null,
+				"response_body":"Sim Internal server error"
+			},
+			{
+				"path":".*",
+				"query":".*",
+				"response_code":200,
+				"response_headers":null,
+				"response_body":"OK"
+			}
+		],
+		"PUT":[
+			{
+				"path":"404/.*",
+				"query":".*",
+				"response_code":404,
+				"response_headers":null,
+				"response_body":"Sim Not found"
+			},
+			{
+				"path":"418/.*",
+				"query":".*",
+				"response_code":418,
+				"response_headers":null,
+				"response_body":"I am a teapot"
+			},
+			{
+				"path":"500/.*",
+				"query":".*",
+				"response_code":500,
+				"response_headers":null,
+				"response_body":"Sim Internal server error"
+			},
+			{
+				"path":".*",
+				"query":".*",
+				"response_code":200,
+				"response_headers":null,
+				"response_body":"OK"
+			}
+		],
+		"POST":[
+			{
+				"path":"404/.*",
+				"query":".*",
+				"response_code":404,
+				"response_headers":null,
+				"response_body":"Sim Not found"
+			},
+			{
+				"path":"418/.*",
+				"query":".*",
+				"response_code":418,
+				"response_headers":null,
+				"response_body":"I am a teapot"
+			},
+			{
+				"path":"500/.*",
+				"query":".*",
+				"response_code":500,
+				"response_headers":null,
+				"response_body":"Sim Internal server error"
+			},
+			{
+				"path":".*",
+				"query":".*",
+				"response_code":200,
+				"response_headers":null,
+				"response_body":"OK"
+			}
+		],
+		"DELETE":[
+			{
+				"path":"404/.*",
+				"query":".*",
+				"response_code":404,
+				"response_headers":null,
+				"response_body":"Sim Not found"
+			},
+			{
+				"path":"418/.*",
+				"query":".*",
+				"response_code":418,
+				"response_headers":null,
+				"response_body":"I am a teapot"
+			},
+			{
+				"path":"500/.*",
+				"query":".*",
+				"response_code":500,
+				"response_headers":null,
+				"response_body":"Sim Internal server error"
+			},
+			{
+				"path":".*",
+				"query":".*",
+				"response_code":200,
+				"response_headers":null,
+				"response_body":"OK"
+			}
+		]
+	}
+}
